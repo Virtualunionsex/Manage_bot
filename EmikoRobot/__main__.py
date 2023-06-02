@@ -84,13 +84,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*👋🏻 ʜᴇʟʟᴏ {} *
+*👋🏻 Hello {} *
 ❍ Hakncock Robot is a bot manager + music to manage your group well.
 ❍ Press /help or /mhelp for Help.
 ❍ Managed By @azure_id.
 ────────────────────
-🧸 Users ⋙ `` Users
-📮 Groups ⋙ `` Groups
+◈ *Uptime:* `{}`
+◈ `{}` *Users, in * `{}` *Group*
 ────────────────────
 """
 
@@ -117,7 +117,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Klik tombol di bawah ini untuk mendapatkan deskripsi tentang fitur manage Amang Robot."""
+Klik tombol di bawah ini untuk mendapatkan deskripsi tentang fitur manage Hancock Robot."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
@@ -432,31 +432,32 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_jasa":
         query.message.edit_text(
-            text="*𝙅𝘼𝙎𝘼 𝘿𝙀𝙋𝙇𝙊𝙔 𝘽𝙊𝙏 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈*"
-            "\n\n*➻ 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙂𝘾𝘼𝙎𝙏*"
+            text="*JASA BOT TELEGRAM*"
+            "\n\n*➻ USERBOT GCAST*"
             "\n├ *Rp. 20.000 [Ubot Premium ]*"
             "\n├ *Rp. 25.000 [Tede Ultra-Premium ]*"
             "\n└ *Sistem Terima Jadi*"
-            "\n\n*➻ 𝘽𝙊𝙏 𝙈𝙐𝙎𝙄𝙆*"
+            "\n\n*➻ BOT MUSIC*"
             "\n├ *Rp. 100.000 [ Vps/bulan ]*"
             "\n├ *[ Awalan Pasang ]*"
             "\n└ *Sistem Terima Jadi*"
-            "\n\n*➻ 𝘽𝙊𝙏 𝙈𝙐𝙎𝙄𝙆 & 𝙈𝘼𝙉𝘼𝙂𝙀*"
-            "\n├ *Rp. 10.000 [ Clone GH ]*"
-            "\n├ *Rp. 150.000 [ Deploy + Heroku + Vps ]*"
+            "\n\n*➻ BOT MANAGE*"
+            "\n├ *Rp. 10.000 [ Clone GH + Settings ]*"
+            "\n├ *Rp. 50.000 [ Deploy + Heroku ]*"
             "\n└ *Sistem Terima Jadi*"
-            "\n\n*➻ 𝘽𝙊𝙏 𝙈𝘼𝙉𝘼𝙂𝙀*"
-            "\n├ *Rp. 50.000 [ Heroku ]*"
+            "\n\n*➻ BOT MUSIC + MANAGE*"
+            "\n├ *Rp. 150.000 [ Deploy + Vps + Heroku ]*"
             "\n└ *Sistem Terima Jadi*"
-            "\n\n*➻ 𝘽𝙊𝙏 𝙈𝘼𝙉𝘼𝙂𝙀*"
-
-            "\n├ *Rp. 50.000 [ Heroku ]*"
-
+            "\n\n*➻ BOT MENFESS*"
+            "\n├ *Rp. 50.000 [ Deploy + Vps ]*"
+            "\n└ *Sistem Terima Jadi*"
+            "\n\n*➻ BOT FILE SHARING/ASUPAN*"
+            "\n├ *Rp. 50.000 [ Deploy + Vps ]*"
             "\n└ *Sistem Terima Jadi*"
             "\n\n*➻ Catatan*"
-            "\n\n*➻ 𝘼𝙋𝘼𝘽𝙄𝙇𝘼 𝘽𝙊𝙏 𝙔𝘼𝙉𝙂 𝘼𝙉𝘿𝘼 𝙄𝙉𝙂𝙄𝙉𝙆𝘼𝙉 𝙏𝙞𝙙𝙖𝙠 𝙖𝙙𝙖 𝙨𝙞𝙡𝙖𝙝𝙠𝙖𝙣 𝙗𝙚𝙧𝙩𝙖𝙣𝙮𝙖 𝙠𝙚* [ᴀᴍᴀɴɢ](tg://openmessage?user_id=2073506739)"
-            "\n\n*➻ ʜᴇʀᴏᴋᴜ ʀᴀᴡᴀɴ sᴜsᴘᴇɴ ᴊᴀᴅɪ sᴀʏᴀ ᴅᴇᴘʟᴏʏ ᴅɪ ᴠᴘs.*"
-            "\n\n*➻ sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ* [ᴀᴍᴀɴɢ](tg://openmessage?user_id=2073506739) *ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ/ᴍᴇɴᴀɴʏᴀᴋᴀɴ ᴄᴏɴᴛᴏʜ ʙᴏᴛ*"
+            "\n\n*➻ Apabila bot yang anda inginkan tidak ada dalam daftar list, silahkan tanya ke* [Azure](tg://openmessage?user_id=5657257558)"
+            "\n\n*➻ Jika ingin gunakan bot free silahkan cek @nakama_asl.*"
+            "\n\n*➻ Silahkan Hubungi* [Azure](tg://openmessage?user_id=5657257558) *Untuk melihat/menanyakan bot*"
             "\n\n*𝗦𝗘𝗞𝗜𝗔𝗡 𝗧𝗘𝗥𝗜𝗠𝗔 𝗞𝗔𝗦𝗜𝗛 🙏.*",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -504,15 +505,15 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_own":
         query.message.edit_text(
-            text="*ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ ᴀᴍᴀɴɢ ʀᴏʙᴏᴛ ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴅᴏɴᴀsɪ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ ᴀᴍᴀɴɢ ʀᴏʙᴏᴛ ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ ᴛᴇʀᴜs.*"
-            f"\n\n➻ *ᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ ᴅᴇɴɢᴀɴ ᴠɪᴀ ᴅᴀɴᴀ/ϙʀɪs ᴀᴛᴀᴜ ᴋᴀʟɪᴀɴ ʙɪsᴀ ʜᴜʙᴜɴɢɪ ᴏᴡɴᴇʀ ᴅɪʙᴀᴡᴀʜ ɪɴɪ*"
-            f"\n\n➻ *ᴅᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ʙᴇʀᴅᴏɴᴀsɪ sᴀʏᴀ ᴜᴄᴀᴘᴋᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ʙᴀɴʏᴀᴋ* 🙏",
+            text="*Jika kalian menyukai Hancock Robot dan ingin berdonasi untuk mensupport.*"
+            f"\n\n➻ *Kalian bisa donasi via qris ataw menghubungi owner kami*"
+            f"\n\n➻ *Dan untuk yang sudah berdonasi kami ucapkan terima kasih* 🙏",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="👨‍💻 ᴀᴍᴀɴɢ•", url="tg://openmessage?user_id=2073506739"),
-                    InlineKeyboardButton(text="💳 ϙʀɪs", url="https://te.legra.ph/file/20897710ec3f3594d354d.jpg"),
+                    InlineKeyboardButton(text="👨‍💻 AZURE•", url="tg://openmessage?user_id=5657257558"),
+                    InlineKeyboardButton(text="💳 QRIS", url="https://te.legra.ph/file/1fc3ce38a9688ddc1c8ba.jpg"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="emiko_back"),                 
