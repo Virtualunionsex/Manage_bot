@@ -85,26 +85,26 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *👋🏻 ʜᴇʟʟᴏ {} *
-❍ AmangRobot is a bot manager + music to manage your group well.
-❍ Press /help for Help.
-❍ Managed By @amwang.
+❍ Hakncock Robot is a bot manager + music to manage your group well.
+❍ Press /help or /mhelp for Help.
+❍ Managed By @azure_id.
 ────────────────────
-🧸 Users ⋙ `1059236` Users
-📮 Groups ⋙ `15698` Groups
+🧸 Users ⋙ `` Users
+📮 Groups ⋙ `` Groups
 ────────────────────
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Tambahkan Saya Ke Grup ➕️", url="https://t.me/AmangRobot_bot?startgroup=true"
+            text="➕️ Tambahkan Saya Ke Grup ➕️", url="https://t.me/Hancock_Robot_bot?startgroup=true"
         ),
     ],
     [
         InlineKeyboardButton(text="Bantuan ❓", callback_data="emiko_support"
         ),
         InlineKeyboardButton(
-            text="Support 📣", url="t.me/amangsupportgrup"
+            text="Support 📣", url="t.me/nakama_asl"
         ),
     ],
     [
@@ -368,7 +368,7 @@ def emiko_about_callback(update, context):
     if query.data == "emiko_":
         query.message.edit_text(
             text="🎧 Bantuan Perintah Music."
-            "\npilih menu di bawah ini untuk melihat bantuan Amang Robot",
+            "\npilih menu di bawah ini untuk melihat bantuan Hancock Robot",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -443,10 +443,15 @@ def emiko_about_callback(update, context):
             "\n└ *Sistem Terima Jadi*"
             "\n\n*➻ 𝘽𝙊𝙏 𝙈𝙐𝙎𝙄𝙆 & 𝙈𝘼𝙉𝘼𝙂𝙀*"
             "\n├ *Rp. 10.000 [ Clone GH ]*"
-            "\n├ *Rp. 250.000 [ Deploy + Heroku + Vps ]*"
+            "\n├ *Rp. 150.000 [ Deploy + Heroku + Vps ]*"
             "\n└ *Sistem Terima Jadi*"
             "\n\n*➻ 𝘽𝙊𝙏 𝙈𝘼𝙉𝘼𝙂𝙀*"
-            "\n├ *Rp. 80.000 [ Heroku ]*"
+            "\n├ *Rp. 50.000 [ Heroku ]*"
+            "\n└ *Sistem Terima Jadi*"
+            "\n\n*➻ 𝘽𝙊𝙏 𝙈𝘼𝙉𝘼𝙂𝙀*"
+
+            "\n├ *Rp. 50.000 [ Heroku ]*"
+
             "\n└ *Sistem Terima Jadi*"
             "\n\n*➻ Catatan*"
             "\n\n*➻ 𝘼𝙋𝘼𝘽𝙄𝙇𝘼 𝘽𝙊𝙏 𝙔𝘼𝙉𝙂 𝘼𝙉𝘿𝘼 𝙄𝙉𝙂𝙄𝙉𝙆𝘼𝙉 𝙏𝙞𝙙𝙖𝙠 𝙖𝙙𝙖 𝙨𝙞𝙡𝙖𝙝𝙠𝙖𝙣 𝙗𝙚𝙧𝙩𝙖𝙣𝙮𝙖 𝙠𝙚* [ᴀᴍᴀɴɢ](tg://openmessage?user_id=2073506739)"
