@@ -31,12 +31,12 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "5851945481:AAHyxkGMsxi0bOipQSJmcZTHv6tbabFu_UU"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "16246834"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
@@ -46,12 +46,12 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": ""
+         "value": "29b3ffa9245c07f05375b92f38e8f13d"
      },
       "STRING_SESSION": {
          "description": "Fill with telethon string session.",
          "required": true,
-         "value": "" 
+         "value": "1AZWarzwBuwr9ug5xTjsN6x46PfdQaK-1Bw5j5FabWSFfYNejArgY1_oC9Ngi8lZON2k68UfsrN7aj5-f2S93Z4kFw4wULrCdJD_-cBAXfZXDvnMo60WNQdKrDJIBBXj5vI1r5-BfoODHcXrJf5VjT2T_dRllgoKGNfQSyQK1b7BJY7NUiUcRk4Bhz3ZflFih3A2v6PzCYDh-HOqHVRWHSDl1wxoKr7s76oXGKASGCd6isdsfMUJ9OxARy7t5wnZ1-BVoJmqiNH-fRySPdCkXbZKpxMYCfafZBkIHlsU5cv9MkJJrOnktSoowwOSino9VrhZMLFviEJh7RiwerMjlAy6ebIcdnXw=" 
       },
       "IMG_BOT": {
          "description": "YOUR IMAGE BOT.",
@@ -68,27 +68,29 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": ""
+         "value": "Hancock Robot"
       },
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": ""
+         "value": "5851945481"
       },
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": ""
+         "value": "panggil_y"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": ""
+         "value": "nakama_asl"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://Azure:Malik10_@cluster0.qaagg9g.mongodb.net/?retryWrites=true&w=majority
+
+"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -101,12 +103,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001626554919"
+         "value": "-1001729142523"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001626554919"
+         "value": "-1001729142523"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -152,22 +154,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": ""
+         "value": "1715348447"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": ""
+         "value": "1715348447"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": ""
+         "value": "1715348447"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "1715348447"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -196,7 +198,7 @@
       "BL_CHATS": {
          "description": "List of chats you want blacklisted.",
          "required": false,
-         "value": ""
+         "value": "-1001729142523"
       },
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
@@ -205,7 +207,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://telegra.ph/file/1fc3ce38a9688ddc1c8ba.jpg"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
