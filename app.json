@@ -10,7 +10,7 @@
       ],
     
    "logo":    "https://telegra.ph/file/f268a324304deaa0f0180.jpg",  
-   "repository": "https://github.com/virtualunionsex/Manage_bot",
+   "repository": "https://github.com/kennedy-ex/https://github.com/virtualunionsex/Manage_bot",
    "addons": [
           {
          "options": {
@@ -88,7 +88,7 @@
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": "mongodb+srv://Azure:Malik10_@cluster0.qaagg9g.mongodb.net/?retryWrites=true&w=majority
+         "value": "mongodb+srv://Azure:Malik10_@cluster0.qaagg9g.mongodb.net/?retryWrites=true&w=majority"
 
 "
       },
